@@ -489,7 +489,7 @@ section {
 
 @media (max-width: 991px) {
   #tech-stack {
-    padding: 10px 10px 90px 10px;
+    padding: 10px 10px 40px 10px;
   }
 
   section .section-title h2 {
@@ -504,7 +504,7 @@ section {
 /* # Services */
 /* --------------------------------------------------------------*/
 #services {
-  padding: 80px 10px;
+  padding: 30px 10px 60px  10px;
   background-color: #ffffff;
 }
 
