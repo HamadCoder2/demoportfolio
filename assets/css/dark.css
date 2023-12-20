@@ -1,0 +1,668 @@
+/*--------------------------- scroll bar-----------*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(15 23 42);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(39, 52, 74);
+    border-radius: 10px;
+    border-style: solid;
+    height: 10px;
+    border-color: rgba(30, 41, 59, .3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(30, 177, 245);
+}
+
+
+/*---------------------------------for all header---------------------------*/
+#header {
+    /* background-color: rgb(15 23 42); */
+    background-color: rgb(2 6 23);
+    /* background-color: rgba(0, 0, 0, 0.50); */
+    border-bottom: 1px solid rgb(23, 26, 52);
+    box-shadow: none;
+
+}
+
+/* #header::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    backdrop-filter: blur(20px);
+    z-index: -1;
+} */
+
+#header .container .logo h1 a {
+    color: #ffffff;
+
+}
+
+
+.navbar a,
+.navbar a:hover {
+    color: rgb(203 213 225);
+
+}
+
+
+.dark-light-button button i {
+    color: #ffffff;
+}
+
+
+
+.mobile-nav-toggle {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+/*------------home page banner section------------------*/
+
+.banner {
+    /* background-color: rgb(13 36 56); */
+    /* background-color: rgb(15 23 42); */
+    background-color: rgb(2 6 23);
+}
+
+.banner .container h1 {
+    color: #ffffff;
+}
+
+.banner .container h1 em {
+    color: #ffffff;
+}
+
+.banner .container p {
+    color: #fff;
+
+}
+
+.banner .container .content h5 {
+    color: #ffffff;
+
+}
+
+
+.banner .container .coffee {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.banner .row .col-md-6 .links a svg:hover {
+    color: rgb(255, 255, 255, 165 233);
+}
+
+
+.banner .col-md-5 .hero-img {
+    border: 3px solid rgb(235, 235, 235);
+}
+
+
+
+.typing {
+    font-weight: 600;
+    /* color: rgb(99 102 241); */
+    /* color: rgb(30, 177, 245); */
+
+    color: rgb(14 165 233);
+    text-transform: capitalize;
+
+}
+
+/*---------------------------------home page and  about page section-------------------*/
+
+#about {
+
+    /* background-color: rgb(18, 41, 61); */
+    /* background-color: rgb(15 23 42); */
+    background-color: rgb(2 6 23);
+    border-top: 1px solid rgb(17, 22, 45);
+
+}
+
+
+.about .content h3 {
+    color: #fff;
+}
+
+.aboutme .name {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.about .content p {
+    color: rgb(115, 130, 151);
+}
+
+#about .row .about-h2 {
+    /* color: rgb(99 102 241); */
+    color: rgb(30, 177, 245);
+}
+
+#about .aboutme p {
+    color: hsl(0, 0%, 83%);
+}
+
+
+#about .container .col-md-3 span {
+    color: rgb(255, 255, 255);
+
+}
+
+
+/* tech stack  */
+#tech-stack {
+    background-color: rgb(2 6 23);
+}
+
+
+
+.section-title h2 {
+
+    color: rgb(14 165 233);
+}
+
+.section-title h2::after {
+
+    background: rgb(255, 255, 255);
+
+}
+
+.section-title p {
+    color: #fff;
+}
+
+.interests .icon-box {
+    background-color: rgb(15 23 42);
+    border: none;
+    box-shadow: none;
+    border-radius: 8px;
+}
+
+.interests .icon-box h3 {
+    color: #ffffff;
+}
+
+
+
+
+/* services  */
+#services {
+    background-color: rgb(2 6 23);
+}
+
+.services .icon-box {
+    text-align: center;
+    padding: 70px 20px 50px 20px;
+    transition: all ease-in-out 0.3s;
+    background-color: rgb(15 23 42);
+    box-shadow: none;
+
+}
+
+.services .icon-box h4 {
+
+    color: rgb(255, 255, 255);
+}
+
+.services .icon-box p {
+    color: rgb(177, 186, 196);
+
+}
+
+
+
+/* testimonails  */
+#testimonials {
+    background-color: rgb(2 6 23);
+}
+
+.testimonials .testimonial-item p {
+    background-color: rgb(15 23 42);
+    color: rgb(148 163 184);
+}
+
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
+    color: rgb(66, 81, 103);
+    font-size: 26px;
+}
+
+
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 5px 45px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: rgb(155, 165, 175);
+    margin: 0 0 0 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(2 6 23);
+    opacity: 1;
+    border: 1px solid  rgb(2 6 23);
+}
+
+
+
+
+/*--------------------------home page social links section ------------*/
+
+#social-links {
+    /* background-color: rgb(18, 41, 61); */
+    /* background-color: rgb(15 23 42); */
+    background-color: rgb(2 6 23);
+}
+
+#social-links h3 {
+    color: #ffffff;
+
+}
+
+.typing-2 {
+    color: #ffffff;
+}
+
+#social-links .col-md-2 h5 {
+    color: #ececec;
+
+}
+
+#social-links h3 em {
+    /* color: rgb(99 102 241); */
+    color: rgb(30, 177, 245);
+}
+
+#social-links a i {
+    font-size: 60px;
+    color: #ffffff;
+
+}
+
+#social-links .social-link-head p{
+    font-size: 17px;
+    color: #d5d0d0;
+}
+
+/*------------------------------about page hire section------------------*/
+
+#hire {
+    /* background-color: rgb(30 41 59); */
+    background-color: rgb(15 23 42);
+}
+
+.project-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 177, 245);
+
+}
+
+.project-btn:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*-----------------------------resume section page------------------------*/
+
+#resume {
+    /* background-color: rgb(13 36 56); */
+    /* background-color: rgb(15 23 42); */
+    background-color: rgb(2 6 23);
+}
+
+#resume h1 {
+    color: #ffffff;
+}
+
+#resume #navi ul li a {
+    color: #fff;
+}
+
+.resume-wrap {
+    padding: 20px 5px 20px 5px;
+    border-bottom: 1px solid rgb(41, 69, 94);
+}
+
+.resume-wrap .date {
+    font-size: 16px;
+    /* color: rgb(99 102 241); */
+    color: rgb(30, 177, 245);
+}
+
+.resume-wrap h2 {
+    font-size: 21px;
+    padding: 5px 0px 0px 0px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.resume-wrap .position {
+    font-size: 18px;
+    font-weight: 600;
+    color: #dcdcdc;
+}
+
+.heading {
+    color: rgb(30, 177, 245);
+}
+
+.resume-wrap p {
+    margin-top: 8px;
+    margin-bottom: 1rem;
+    color: rgb(100 116 139);
+}
+
+#Skills .row .progress .skill {
+    color: rgb(255, 255, 255);
+}
+
+#Skills .section-title {
+    color: rgb(100 116 139);
+}
+
+
+/*-------------------------projects section--------------------*/
+
+
+nav a i {
+    /* color: rgb(99 102 241); */
+    color: rgb(30, 177, 245);
+}
+
+nav a i:hover {
+    /* color: rgb(99 102 241); */
+    color: rgb(30, 177, 245);
+}
+
+nav .anker span {
+    color: #ffffff;
+}
+
+.project-track {
+    background-color: rgb(13 36 56);
+}
+
+section {
+    background-color: rgb(13 36 56);
+}
+
+section::before {
+    background-color: rgb(17 24 39);
+}
+
+.project-form form input {
+    color: #fff;
+    background-color: rgb(30 56 81);
+    border: none;
+    outline: none;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    color: #d5d0d0;
+}
+
+
+
+.box {
+    color: rgb(156 163 175);
+    background-color: rgb(30 41 59);
+}
+
+.inputfile-1+label {
+    background-color: rgb(30 41 59);
+}
+
+svg {
+    color: #fff;
+}
+
+label span {
+    color: #fff;
+}
+
+.heading h3 {
+    color: #ffffff;
+
+}
+
+.heading h2 {
+    color: #f4f1f1;
+}
+
+.heading p {
+    color: #d1d5db;
+}
+
+.text-center button {
+    background-color: rgb(30, 177, 245);
+    border: none;
+}
+
+#coffeewithme {
+    /* background-color: rgb(13 36 56); */
+    background-color: rgb(2 6 23);
+}
+
+#coffeewithme .max-width .form-label {
+    color: #d1d5db;
+    font-size: 15px;
+}
+
+#coffeewithme .max-width .form-control {
+    background-color: rgb(15 23 42);
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+#coffeewithme .max-width .form-control:hover {
+    outline: none;
+    box-shadow: 0 0 0 1px rgb(30, 177, 245);
+    border: none;
+    background-color: rgb(30 56 81);
+}
+
+
+
+#coffeewithme .max-width .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(30, 177, 245);
+}
+
+#coffeewithme .max-width .btn:hover {
+    outline: none;
+    border-color: rgba(107, 114, 247, 0.4);
+    box-shadow: 0 0 0 4px rgba(91, 101, 245, 0.1);
+}
+
+
+
+.box {
+    background-color: rgb(30 56 81);
+    border: 2px dashed rgb(156 163 175);
+}
+
+.inputfile-1+label {
+    color: #6d6c6c;
+    background-color: rgb(30 56 81);
+}
+
+/*--------------------------------portfolio section --------------------*/
+
+
+#portfolio {
+    /* background-color: rgb(13 36 56); */
+    /* background-color: rgb(15 23 42); */
+    background-color: rgb(2 6 23);
+}
+
+
+
+#portfolio h1 {
+    color: rgb(30, 177, 245);
+
+}
+
+#section4 h2 {
+    color: #fafafa;
+}
+
+#portfolio p {
+
+    color: #ffffff;
+
+}
+
+#portfolio .max-width .col-md-5 h2 {
+    color: #fff;
+}
+
+#portfolio .max-width .col-md-5 p {
+    color: rgb(135, 151, 173);
+}
+
+#portfolio .max-width {
+
+    /* background-color: rgb(32, 47, 69); */
+    background-color: rgb(15 23 42);
+}
+
+#portfolio .max-width .col-md-7 {
+    background-color: rgb(0, 0, 0)
+}
+
+#portfolio .head {
+    color: #ffffff;
+
+}
+
+#portfolio .max-width div a {
+    color: #ffffff;
+}
+
+#portfolio .max-width div a:hover {
+    color: rgb(30, 177, 245);
+}
+
+#portfolio .max-width div a svg:hover {
+    color: rgb(30, 177, 245);
+}
+
+
+#portfolio .max-width .btn-group button {
+    background-color: rgb(23, 32, 54);
+    color: #fff;
+}
+
+
+
+/*-----------------------------contact section-------------------------*/
+#contact {
+    /* background-color: rgb(13 36 56); */
+    /* background-color: rgb(15 23 42); */
+    background-color: rgb(2 6 23);
+}
+
+.contact .info {
+    width: 100%;
+    background-color: rgb(2 6 23);
+}
+
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: rgb(203 213 225);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contact .php-email-form {
+    width: 100%;
+    background-color: rgb(2 6 23);
+    color: #fff;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+    font-size: 17px;
+    background-color: rgb(15 23 42);
+    color: #fff;
+}
+
+
+.contact .info i {
+
+    background-color: rgb(15 23 42);
+    color: rgb(100, 200, 246)
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+    background: rgb(100, 200, 246);
+    color: #fff;
+}
+
+
+/*-------------------------------------footer for all page -------------------------*/
+
+footer {
+
+    background-color: rgb(2 6 23);
+    border-top: 1px solid rgb(13, 29, 54);
+    color: rgb(148 163 184);
+}
+
+.footer-link li i {
+
+    color: #cacaca;
+    font-size: 16px;
+}
+
+
+.scroll-up-btn {
+
+    background-color: rgb(30, 177, 245);
+    color: #ffffff;
+}
